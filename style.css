@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(13, 12, 13);
+    color: white;
+}
+
+:root{
+    --RED:red;
+}
+
+.text-red{
+    color: red;
+}
+
+.bg-red{
+    background-color: red;
+}
+/*Navigation*/
+
+.hovi{
+    color:var(--RED);
+}
+
+.hovi:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*Home*/
+.buttons{
+    border-radius: 30px;
+    padding: 20px 40px;
+    border: 2px solid red;
+    background-color: rgb(13, 12, 13);
+    color: var(--RED);
+}
+
+.buttons:hover{
+    box-shadow: 0 0 30px red;
+}
+
+/*About*/
+#gray{
+    color:rgb(126, 126, 126);
+    font-size: 1.4rem;
+}
+
+.fbox{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.fbox:hover{
+    color: var(--RED);
+    transition: color 0.3s ease-in-out;
+}
+
+.flexy2{
+    text-align: right;
+    color: rgb(126, 126, 126);
+}
+
+#ssr{
+    text-align: right;
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/*Resume*/
+
+
+.flex-ex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    flex-shrink: 0;
+}
+.bo1{
+    width: 30%;
+    min-width: 300px;
+    position: relative;
+    height: 250px;
+    margin: 10px;
+    padding: 30px;
+    background-color: rgb(17, 16, 16);
+    text-align: center;
+    border-radius: 20px;
+}
+
+@media (max-width:768px){
+    .bo1{
+        width: 100%;
+    }
+}
+
+.bo1 >*{
+    padding: 10px;
+}
+
+#greeny{
+    color:var(--RED);
+}
+
+.bo1:hover{
+    border: 2px solid var(--RED);
+}
+
+/*Skills*/
+
+.bargraph{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.roll1{
+    min-width:40%;
+    max-width: 43%;
+}
+
+@media (max-width:433px){
+    .roll1{
+        min-width: 100%;
+    }
+}
+
+.content-head{
+    position: relative;
+}
+.content-head h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:var(--RED);
+    text-underline-offset: 20px;
+}
+
+
+#skill-para{
+    font-size: 1.9rem;
+    margin-top: 10%;
+}
+
+
+/*Projects*/
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    min-height: 50%;
+}
+
+
+.img1{
+    width: 45%;
+    border:2px solid var(--RED);
+    height: 300px;
+}
+.img1:hover{
+    border: 5px solid var(--RED);
+}
+
+ @media (max-width:773px) {
+    .img1{
+        width: 100%;
+        height: auto;
+    }
+ }
+
+.src1{
+    width: 100%;
+    height: 100%;
+}
+
+
+
