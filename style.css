@@ -3,12 +3,13 @@
     margin: 0;
 }
 
-.custom-border {
-  border: 6px solid red; /* orange */
+.border-d{
+    border:6px solid red;
 }
-.custom-border:hover{
-  box-shadow: 0 0 30px red; /* orange */
+.border-d:hover{
+    box-shadow: 0 0 30px red;
 }
+
 
 
 
