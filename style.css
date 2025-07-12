@@ -3,6 +3,15 @@
     margin: 0;
 }
 
+.custom-border {
+  border: 6px solid red; /* orange */
+}
+.custom-border:hover{
+  box-shadow: 0 0 30px red; /* orange */
+}
+
+
+
 body{
     background-color: rgb(13, 12, 13);
     color: white;
